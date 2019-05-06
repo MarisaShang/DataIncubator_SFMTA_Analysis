@@ -8,9 +8,18 @@ I hope to understand more deeply about what factors cause the parking issue, and
 Data Size: up to 6GB, to perform the experiment, just use first 300,000 records
 Data source- I used a provided API from  https://data.sfgov.org/Transportation/SFMTA-Parking-Meter-Detailed-Revenue-Transactions/imvp-dq3v
 
+Data Size: up to 6GB, to perform the experiment, I just used first 300,000 records
+
 What I did in the following code:
 1. Fetch data through API
 2. Clean data, find more meaningful data fields
 3. Draw two plots
 Plot - 1: Parking counts, rev and total ocupation hours by parking lot
 Plot - 2: Parking counts, rev and total ocupation hours by weekday
+
+
+Todo:
+Next Step & Plan:
+1. Further analyze the correlation between occupation hours and locations
+2. Analyze the average occupation hours and trends, find the overcrowded parking lots and underused parking lots. Propose improvement guideline for parking lot construction
+Run regression analysis between location and other variable such as time of the day, weekday vs weekend, location.
